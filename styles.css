@@ -119,19 +119,3 @@ footer {
   bottom: 0;
   width: 100%;
 }
-
-/* Responsive */
-@media (max-width: 768px) {
-  .members-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  nav ul {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  nav ul li {
-    margin: 10px 0;
-  }
-}
